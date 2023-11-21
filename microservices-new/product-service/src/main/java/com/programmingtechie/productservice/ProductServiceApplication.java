@@ -3,9 +3,10 @@ package com.programmingtechie.productservice;
 //import com.github.cloudyrock.spring.v5.EnableMongock;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
-//@EnableMongock
+@EnableEurekaClient
 public class ProductServiceApplication {
 
 	public static void main(String[] args) {
